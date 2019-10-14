@@ -40,7 +40,7 @@ class App extends Component {
       title: value,
       completed: false
     });
-
+    this.clearInput();
     // update state
     this.setState({
       todos: this.state.todos

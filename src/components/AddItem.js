@@ -14,7 +14,11 @@ class AddItem extends Component {
           id="addItemInput"
           onClick={this.props.clearInput.bind(this)}
         />
-        <button type="post" onClick={this.props.addTodo.bind(this)}>
+        <button
+          type="POST"
+          className="submit"
+          onClick={this.props.addTodo.bind(this)}
+        >
           Submit
         </button>
       </div>
